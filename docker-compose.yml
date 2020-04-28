@@ -22,3 +22,5 @@ services:
     depends_on:
       - db
 
+volumes:
+  mariadb_data:
