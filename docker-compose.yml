@@ -9,7 +9,7 @@ services:
       - MYSQL_USER=mariadb
       - MYSQL_PASSWORD=mariadb
     volumes:
-      - /home/damufo/dev/xesde-mariadb-data:/var/lib/mysql
+      - mariadb_data:/var/lib/mysql
     ports:
       - "3308:3306"
   web:
